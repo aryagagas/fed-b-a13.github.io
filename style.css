@@ -83,16 +83,6 @@ input {
     background: radial-gradient(circle at top left, #388ACD, #105389);
 }
 
-    @media (max-width: 1000px) {
-        .top-wrapper {width: 50%}
-    }
-
-    @media (max-width: 670px) {
-        .top-wrapper {
-          width: 100%;
-        }
-      }
-
 h1 {
     font-family: 'Poppins';
     font-style: normal;
