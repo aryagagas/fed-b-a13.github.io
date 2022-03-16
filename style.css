@@ -99,10 +99,7 @@ h1 {
     font-weight: 600;
     font-size: 70px;
     line-height: 80px;
-    /* or 114% */
-
     letter-spacing: 0.3px;
-
     color: #FFFFFF;
 }
 .container h1{
@@ -110,7 +107,7 @@ h1 {
     width: 440px;
     height: 160px;
     left: 120px;
-    top: 61px;
+    top: 80px;
 }
 .container p{
     position: absolute;
@@ -143,11 +140,11 @@ p {
     background: #FFFFFF;
     border-radius: 20px;
 
-    position: static;
-    width: 69px;
+    position: absolute;
+    width: 80px;
     height: 26px;
-    left: 20px;
-    top: 6px;
+    left: 0px;
+    top: -2px;
     
     font-family: 'Poppins';
     font-style: normal;
@@ -203,7 +200,7 @@ p {
 .content-item {
     position:absolute;
     left: 878px;
-    top: 64px;
+    top: 80px;
     bottom: 600px
 }
 
@@ -215,21 +212,23 @@ p {
 
 }
 
-.container {
+.message-wrapper {
+    height: 374px;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.message-container {
     width: 100%;
     padding: 0 120px;
     margin: 0 auto;
-}
-  
-.message-wrapper {
-    padding: 50px 0px;
 }
 
 .testi {
     width: 75%;
 }
 
-h2 {
+.testi h2 {
     font-size: 40px;
     letter-spacing: 0.3px;
     color: #333333;
@@ -254,14 +253,8 @@ h2 {
     color: #333333;
 }
 
-.name-cust img {
-    margin-top: 20px;
-}
-
 .name-cust p {
     display: inline-block;
-    margin-left: 55px;
-    margin-top: 33px;
     font-weight: bold;
 }
 
