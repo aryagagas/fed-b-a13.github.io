@@ -18,6 +18,29 @@ header {
     background: radial-gradient(circle at top left, #388ACD, #105389);
 }
 
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 26px;
+}
+h4{
+    font-size: 16px;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+}
+h5{
+    font-size: 16px;
+}
+p{
+    font-size: 14px;
+}
+
+
 li {
     list-style: none;
     float: left;
