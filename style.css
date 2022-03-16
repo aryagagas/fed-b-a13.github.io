@@ -78,7 +78,7 @@ input {
 }
 
 footer{
-    width: 1280px;
+    width: 100%;
     height: 452px;
     background-image: radial-gradient(100% 805.5% at 100% 100%, #105389 0%, #388ACD 100%);
 }
