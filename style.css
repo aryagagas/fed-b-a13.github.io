@@ -235,6 +235,100 @@ p {
 
 }
 
+.container {
+    width: 1280px;
+    padding: 0 120px;
+    margin: 0 auto;
+}
+  
+.message-wrapper {
+    padding: 50px 0px;
+}
+
+.testi {
+    position: absolute;
+    width: 75%;
+}
+
+h2 {
+    font-size: 40px;
+    letter-spacing: 0.3px;
+    color: #333333;
+}
+
+h4 {
+    color:#333333;
+    font-size: 18px;
+    margin-top: 32px;
+    width: 35%;
+    letter-spacing: 0.3px;
+}
+
+h4 span {
+    font-weight: normal;
+    color: #333333;
+}
+
+.name-cust {
+    margin-top: 214px;
+    margin-bottom: 50px;
+    position: absolute;
+    color: #333333;
+}
+
+.name-cust img {
+    margin-top: 20px;
+    position: absolute;
+}
+
+.name-cust p {
+    display: inline-block;
+    margin-left: 55px;
+    margin-top: 33px;
+    font-weight: bold;
+}
+
+.offer {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.offer p {
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    color: #333333;
+}
+
+.offer .signup {
+    margin-top: 94px;
+}
+
+input {
+    border-radius: 25px;
+    text-align: center;
+}
+
+.signup #email {
+    width: 225px;
+    height: 30px;
+}
+
+.signup #submit {
+    width: 90px;
+    height: 30px;
+    margin-left: 4px;
+    background-color: #105389;
+    color: white;
+    transition: all 0.5s;
+    ;
+}
+
+.signup #submit:hover {
+    background-color: rgba(56, 138, 205, 1);
+}
+
 footer{
     height: 451px;
     background: radial-gradient(100% 805.5% at 100% 100%, #105389 0%, #388ACD 100%)
