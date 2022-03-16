@@ -40,6 +40,11 @@ p{
     font-size: 14px;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
 
 li {
     list-style: none;
@@ -75,4 +80,73 @@ li {
 input {
     border: none;
     width: 160px;
+}
+
+footer{
+    height: 451px;
+    background: radial-gradient(100% 805.5% at 100% 100%, #105389 0%, #388ACD 100%)
+}
+.footer-logo{
+    padding-top: 80px;
+    padding-left: 120px;
+}
+.footer-logo-icon{
+    float:left;
+    padding-right:20px;
+}
+.footer-logo-name{
+    color: white;
+    padding-top: 10px;
+}
+
+.footer-right{
+    float: right;
+    padding-right: 120px;
+    margin-top: -50px;
+}
+
+.footer-list-1{
+    float:right;
+    padding-left: 100px;
+    font-size: 12px;
+    
+}
+.footer-list-1 li{
+    margin-left: 20px;
+}
+.footer-list-1 span{
+    color: white;
+    font-size: 30px ;
+}
+
+.footer-list-2{
+    color: white;
+    float: right;
+    padding-left: 100px;
+    font-size:12px
+}
+.footer-list-2 li{
+    float: none;
+    margin-bottom: 8px;
+}
+
+.footer-list-3{
+    color: white;
+    float: right;
+    padding-left: 100px;
+    font-size: 12px;
+}
+.footer-list-3 li{
+    float: none;
+    margin-bottom: 8px;
+}
+
+.footer-bottom{
+    position: absolute;
+    width: 400px;
+    height: 42px;
+    left: 500px;
+    top: 450px;
+    color: white;  
+    text-align: center; 
 }
