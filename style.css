@@ -18,9 +18,6 @@ header {
     background: radial-gradient(circle at top left, #388ACD, #105389);
 }
 
-h1{
-    font-size: 70px;
-}
 h2{
     font-size: 40px;
 }
@@ -36,9 +33,7 @@ h4{
 h5{
     font-size: 16px;
 }
-p{
-    font-size: 14px;
-}
+
 
 a{
     color: white;
@@ -80,6 +75,227 @@ li {
 input {
     border: none;
     width: 160px;
+}
+
+.top-wrapper {
+    width: 100%;
+    height: 436px;
+    background: radial-gradient(circle at top left, #388ACD, #105389);
+}
+
+    @media (max-width: 1000px) {
+        .top-wrapper {width: 50%}
+    }
+
+    @media (max-width: 670px) {
+        .top-wrapper {
+          width: 100%;
+        }
+      }
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
+.container h1{
+    position: absolute;
+    width: 440px;
+    height: 160px;
+    left: 120px;
+    top: 80px;
+}
+.container p{
+    position: absolute;
+    width: 317px;
+    height: 52px;
+    left: 135px;
+    top: 226px;
+}
+p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 114% */
+
+    letter-spacing: 0.3px;
+
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.btn-buy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 20px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    position: absolute;
+    width: 80px;
+    height: 26px;
+    left: 0px;
+    top: -2px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    
+    letter-spacing: 0.3px;
+    
+    color: #105389;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 345px 130px;
+    text-decoration-line: none;
+}
+
+.btn-explore {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 20px;
+
+    position: absolute;
+    width: 104px;
+    height: 36px;
+    left: 255px;
+    top: 345px;
+
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    text-decoration-line: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.content-item {
+    position:absolute;
+    left: 878px;
+    top: 80px;
+    bottom: 600px
+}
+
+.contents-item {
+    position:absolute;
+    left: 702px;
+    top: 220px;
+
+
+}
+
+.message-wrapper {
+    height: 374px;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.message-container {
+    width: 100%;
+    padding: 0 120px;
+    margin: 0 auto;
+}
+
+.testi {
+    width: 75%;
+}
+
+.testi h2 {
+    font-size: 40px;
+    letter-spacing: 0.3px;
+    color: #333333;
+}
+
+.testi h4 {
+    color:#333333;
+    font-size: 18px;
+    margin-top: 32px;
+    width: 35%;
+    letter-spacing: 0.3px;
+}
+
+.testi span {
+    font-weight: normal;
+    color: #333333;
+}
+
+.name-cust {
+    color: #333333;
+    padding-top: 20px;
+}
+
+.name-cust img{
+    float: left;
+    padding-right: 10px;
+}
+
+.name-cust p {
+    font-weight: bold;
+    color: #333333;
+    line-height: 5px;
+}
+
+.offer {
+    text-align: center;
+    width: 100%;
+}
+
+.offer p {
+    width: 100%;
+    color: #333333;
+    text-align: center;
+}
+
+.signup input {
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid #333333;
+}
+
+.signup #email {
+    width: 225px;
+    height: 30px;
+}
+
+.signup #submit {
+    width: 90px;
+    height: 30px;
+    margin-left: 4px;
+    background-color: #105389;
+    color: white;
+    transition: all 0.5s;
+}
+
+.signup #submit:hover {
+    background-color: rgba(56, 138, 205, 1);
 }
 
 footer{
@@ -142,11 +358,9 @@ footer{
 }
 
 .footer-bottom{
-    position: absolute;
-    width: 400px;
+    width: 100%;
     height: 42px;
-    left: 500px;
-    top: 450px;
     color: white;  
     text-align: center; 
+    padding-top: 225px;
 }
