@@ -236,6 +236,7 @@ p {
     width: 100%;
     padding: 0 120px;
     margin: 0 auto;
+    float: left;
 }
 
 .testi {
@@ -280,6 +281,8 @@ p {
 .offer {
     text-align: center;
     width: 100%;
+    margin-top: -230px;
+    margin-left: 200px;
 }
 
 .offer p {
