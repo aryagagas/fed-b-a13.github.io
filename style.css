@@ -198,8 +198,6 @@ p {
     position:absolute;
     left: 702px;
     top: 220px;
-
-
 }
 
 /* product --start-- */
@@ -215,7 +213,7 @@ p {
     padding-top: 50px;
 }
 .product-items{
-    padding-left: 300px;
+    padding-left: 280px;
     padding-top: 20px;
 }
 .product-item{
