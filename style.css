@@ -248,14 +248,19 @@ p {
 }
 
 .name-cust {
-    margin-top: 214px;
-    margin-bottom: 50px;
     color: #333333;
+    padding-top: 20px;
+}
+
+.name-cust img{
+    float: left;
+    padding-right: 10px;
 }
 
 .name-cust p {
-    display: inline-block;
     font-weight: bold;
+    color: #333333;
+    line-height: 5px;
 }
 
 .offer {
@@ -265,17 +270,14 @@ p {
 
 .offer p {
     width: 100%;
-    top: 80px;
     color: #333333;
+    text-align: center;
 }
 
-.offer .signup {
-    margin-top: 94px;
-}
-
-input {
+.signup input {
     border-radius: 25px;
     text-align: center;
+    border: 1px solid #333333;
 }
 
 .signup #email {
@@ -290,7 +292,6 @@ input {
     background-color: #105389;
     color: white;
     transition: all 0.5s;
-    ;
 }
 
 .signup #submit:hover {
